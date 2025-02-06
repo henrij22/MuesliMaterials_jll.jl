@@ -1,15 +1,16 @@
 name = "MuesliMaterials_jll"
 uuid = "ef259003-9f3a-5fc7-ae68-dce6b88dc7d6"
-version = "1.16.1+0"
+version = "1.16.2+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
+libblastrampoline_jll = "8e850b90-86db-534c-a0d3-1478176c7d93"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
-OpenBLAS32_jll = "656ef2d0-ae68-5445-9ca0-591084a874a2"
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 
 [compat]
 JLLWrappers = "1.2.0"
 julia = "1.10"
+libblastrampoline_jll = "5.4.0"
 Libdl = "< 0.0.1, 1"
 Artifacts = "< 0.0.1, 1"
